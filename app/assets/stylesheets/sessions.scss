@@ -1,0 +1,143 @@
+/* BigBlueButton open source conferencing system - http://www.bigbluebutton.org/.
+*
+* Copyright (c) 2018 BigBlueButton Inc. and by respective authors (see below).
+*
+* This program is free software; you can redistribute it and/or modify it under the
+* terms of the GNU Lesser General Public License as published by the Free Software
+* Foundation; either version 3.0 of the License, or (at your option) any later
+* version.
+*
+* BigBlueButton is distributed in the hope that it will be useful, but WITHOUT ANY
+* WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+* PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public License along
+* with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+// Place all the styles related to the Sessions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.login {
+  .center-panel {
+    .center-panel-size {
+      max-width: 400px;
+    }
+  }
+}
+
+a.signin-link {
+  &:hover, &:focus {
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+.signin-link {
+  .signin-icon {
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+  }
+  .signin-button {
+    background: white;
+    width: 250px;
+    border: thin solid #888;
+    border-radius: 2px;
+    white-space: nowrap;
+    padding: 5px;
+    margin-bottom: 14px;
+  }
+  .signin-icon-wrapper {
+    display: inline-block;
+    width: 40px;
+  }
+  .signin-text-wrapper {
+    display: inline-block;
+    width: 200px;
+  }
+  .signin-text {
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: bold;
+    color: #444;
+  }
+}
+
+.login-btn-oneid:before {
+  background-image: url(https://webconference.inet.co.th/images/One_platform.png);
+}
+a.login-btn {
+  color: inherit !important;
+  text-decoration: none;
+  background: transparent;
+}
+.login-btn {
+  display: block;
+  border-radius: 4px;
+  line-height: 38px;
+  border: 1px solid #babacc;
+  background-color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  padding: 0 8px 0 54px;
+  color: #747487;
+  position: relative;
+}
+.login-btn:before {
+  content: "";
+  width: 50px;
+  height: 18px;
+  position: absolute;
+  left: 0px;
+  top: 11px;
+  -webkit-background-size: 18px 18px;
+  background-size: 60px 60px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.login-btn:after {
+content: "";
+height: 100%;
+width: 1px;
+position: absolute;
+left: 50px;
+top: 0;
+background-color: #babacc;
+}
+
+.login-btn:hover {
+  color: white !important;
+  background-color: #4a6ab0;
+}
+
+p.ONEID{
+  margin-bottom: 0em;
+  position: relative;
+  left: 24px;
+}
+.ride-line {
+  position: relative;
+  text-align: center;
+}
+
+.ride-line:before {
+  content: '';
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 12px;
+  background-color: rgba(0,40,100,0.12);
+}
+.ride-line span {
+  background-color: #F5F7FB;
+  padding-left: 12px;
+  padding-right: 12px;
+  display: inline-block;
+  line-height: 24px;
+  position: relative;
+  z-index: 1;
+  color: #747487;
+}

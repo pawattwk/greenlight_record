@@ -1,0 +1,8 @@
+FROM onemonitor/webconf:v1.2.2
+
+WORKDIR /usr/src/app
+COPY . .
+
+RUN bundle install
+
+

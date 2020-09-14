@@ -1,0 +1,2 @@
+2020-09-14 11:34:14 +0700::INFO: [e0aaab71-ac75-49b0-9314-5435a543790a] method=GET path=/ format=html controller=MainController action=index status=200 duration=733.27 view=657.90 db=33.09 host=greenlight 
+2020-09-14 11:34:16 +0700::INFO: [9d4b822a-7114-4774-83e1-59d3f6fb4dca] method=GET path=/signin format=html controller=SessionsController action=signin status=200 duration=52.66 view=40.44 db=1.76 host=greenlight 
